@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a45-VQ-gBS">
-                                <rect key="frame" x="20" y="44" width="374" height="412"/>
+                                <rect key="frame" x="20" y="59" width="374" height="397"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vN4-5r-gxP">
@@ -28,15 +28,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="a45-VQ-gBS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2gt-9B-Pb3"/>
-                            <constraint firstItem="vN4-5r-gxP" firstAttribute="top" secondItem="a45-VQ-gBS" secondAttribute="bottom" constant="8" symbolic="YES" id="5fj-Pe-hog"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a45-VQ-gBS" secondAttribute="trailing" constant="20" id="9r9-Ff-yID"/>
-                            <constraint firstItem="vN4-5r-gxP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IRJ-sd-qgL"/>
-                            <constraint firstItem="a45-VQ-gBS" firstAttribute="height" secondItem="vN4-5r-gxP" secondAttribute="height" id="RtZ-s7-qvI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vN4-5r-gxP" secondAttribute="trailing" constant="20" id="Vya-XE-fym"/>
-                            <constraint firstItem="a45-VQ-gBS" firstAttribute="width" secondItem="vN4-5r-gxP" secondAttribute="width" id="Zhp-Ua-OkK"/>
-                            <constraint firstAttribute="bottom" secondItem="vN4-5r-gxP" secondAttribute="bottom" constant="20" symbolic="YES" id="aTd-Ji-726"/>
-                            <constraint firstItem="a45-VQ-gBS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lLr-Z7-F6s"/>
+                            <constraint firstItem="a45-VQ-gBS" firstAttribute="height" secondItem="vN4-5r-gxP" secondAttribute="height" multiplier="0.963592" id="Feo-7C-Fil"/>
+                            <constraint firstItem="a45-VQ-gBS" firstAttribute="width" secondItem="vN4-5r-gxP" secondAttribute="width" id="Md1-Xg-OqO"/>
+                            <constraint firstAttribute="bottom" secondItem="vN4-5r-gxP" secondAttribute="bottom" constant="20" symbolic="YES" id="ROM-2U-9Za"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a45-VQ-gBS" secondAttribute="trailing" constant="20" id="XIS-uC-XQv"/>
+                            <constraint firstItem="vN4-5r-gxP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aOI-tq-IQ0"/>
+                            <constraint firstItem="a45-VQ-gBS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="asS-3Z-5Ml"/>
+                            <constraint firstItem="vN4-5r-gxP" firstAttribute="top" secondItem="a45-VQ-gBS" secondAttribute="bottom" constant="8" symbolic="YES" id="hBV-Y4-qeL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vN4-5r-gxP" secondAttribute="trailing" constant="20" id="igx-Z8-gkg"/>
+                            <constraint firstItem="a45-VQ-gBS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tia-5z-5M1"/>
                         </constraints>
                     </view>
                 </viewController>
